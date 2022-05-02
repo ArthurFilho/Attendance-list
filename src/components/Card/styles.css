@@ -1,0 +1,24 @@
+.card {
+  height: 100px;
+  width: 50%;
+
+  background: #00008b;
+  color: #fff;
+  box-shadow: 10px 10px 5px black;
+
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.card strong {
+  font-size: 18px;
+}
+
+.search:hover{
+  box-shadow: 0 0 1em black;
+}
